@@ -50,3 +50,4 @@
 ;; (unpin! t)
 
 (package! cmake-ide)
+(package! git-auto-commit-mode)
