@@ -77,5 +77,8 @@
 ;;
 (editorconfig-mode 1)
 (add-hook 'treemacs-mode-hook #'treemacs-follow-mode)
+;(add-hook 'treemacs-mode-hook #'treemacs-indent-guide-mode)
+;;(setq treemacs-indent-guide-style 'line)
+
 (add-hook 'window-setup-hook #'toggle-frame-maximized)
 (scroll-bar-mode 1)
