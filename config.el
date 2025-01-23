@@ -78,3 +78,4 @@
 (editorconfig-mode 1)
 (add-hook 'treemacs-mode-hook #'treemacs-follow-mode)
 (add-hook 'window-setup-hook #'toggle-frame-maximized)
+(scroll-bar-mode 1)
