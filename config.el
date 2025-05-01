@@ -82,3 +82,4 @@
 
 (add-hook 'window-setup-hook #'toggle-frame-maximized)
 (scroll-bar-mode 1)
+(setq projectile-track-known-projects-automatically nil)
