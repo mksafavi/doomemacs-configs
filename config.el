@@ -84,3 +84,4 @@
 (scroll-bar-mode 1)
 (setq projectile-track-known-projects-automatically nil)
 (fmakunbound 'treemacs-delete-file)
+(setq +latex-viewers '(pdf-tools))
