@@ -85,3 +85,4 @@
 (setq projectile-track-known-projects-automatically nil)
 (fmakunbound 'treemacs-delete-file)
 (setq +latex-viewers '(pdf-tools))
+(map! [remap +default/search-project] #'+vertico/project-search)
